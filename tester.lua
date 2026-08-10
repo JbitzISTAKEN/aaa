@@ -463,7 +463,7 @@ local function runCollection()
         print("[BeeCollect] Timeout reached — hopping")
     end
 
-    task.wait(0.5)
+    task.wait(5)
     hopWithRetry()
 end
 
