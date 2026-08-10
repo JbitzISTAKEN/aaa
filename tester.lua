@@ -103,7 +103,7 @@ end
 ------------------------------------------------------------------------
 local SCRIPT_SOURCE = [=[
     -- re-injected by queue_on_teleport
-    loadstring(game:HttpGet("YOUR_RAW_SCRIPT_URL"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JbitzISTAKEN/aaa/refs/heads/main/tester.lua"))()
 ]=]
 
 local function doHop()
